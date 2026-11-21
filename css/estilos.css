@@ -922,6 +922,112 @@ a {
 
 }
 
+/* ================================
+   CARRUSEL DE IMAGENES
+================================ */
+
+.carousel-section {
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+
+.carousel {
+    position: relative;
+    width: 100%;
+    max-width: 900px;
+    margin: 30px auto;
+    overflow: hidden;
+    border-radius: 12px;
+}
+
+.carousel-images {
+    display: flex;
+    width: 100%;
+}
+
+.carousel-images img {
+    display: none;
+    width: 100%;
+    height: 450px;
+    object-fit: cover;
+}
+
+.carousel-images img.active {
+    display: block;
+}
+
+/* BOTONES ANTERIOR Y SIGUIENTE */
+
+.carousel-btn {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: rgba(16, 43, 70, 0.85);
+    color: white;
+    border: none;
+    padding: 14px 18px;
+    font-size: 22px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.carousel-btn:hover {
+    background-color: #16B8B0;
+}
+
+.anterior {
+    left: 15px;
+}
+
+.siguiente {
+    right: 15px;
+}
+
+/* INDICADORES */
+
+.carousel-indicators {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-top: 15px;
+}
+
+.carousel-indicators button {
+    width: 12px;
+    height: 12px;
+    border: none;
+    border-radius: 50%;
+    background-color: #B8C5D0;
+    cursor: pointer;
+}
+
+.carousel-indicators button.active {
+    background-color: #16B8B0;
+}
+
+/* ADAPTACION PARA CELULARES */
+
+@media (max-width: 700px) {
+
+    .carousel-images img {
+        height: 300px;
+    }
+
+}
+
+@media (max-width: 501px) {
+
+    .carousel-images img {
+        height: 220px;
+    }
+
+    .carousel-btn {
+        padding: 10px 13px;
+        font-size: 18px;
+    }
+
+}
+
 
 
 

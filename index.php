@@ -77,6 +77,41 @@
     </section>
 
 
+    <!-- CARRUSEL DE IMAGENES -->
+    <section class="carousel-section container">
+
+        <div class="section-heading">
+
+            <p class="section-tag">GALERÍA TECNOLÓGICA</p>
+
+            <h2>Descubre el mundo de la innovación</h2>
+
+            <p>
+                Explora algunas de las tecnologías que formarán
+                parte de Conecta 2026.
+            </p>
+
+        </div>
+
+        <div class="carousel">
+
+            <div class="carousel-images" id="carouselImages">
+
+                <img src="img/carrusel1.jpg" alt="Innovación tecnológica">
+
+                <img src="img/carrusel2.jpg" alt="Inteligencia artificial">
+
+                <img src="img/carrusel3.jpg" alt="Robótica">
+
+            </div>
+
+        </div>
+
+        <div class="carousel-indicators" id="carouselIndicators"></div>
+
+    </section>
+
+
     <!-- INVITACION AL EVENTO -->
     <section class="event-invitation">
 
